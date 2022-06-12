@@ -29,6 +29,7 @@ body {
   height: 100%;
 }
 
+
 .df {
   display: flex;
 }
@@ -40,3 +41,5 @@ body {
 .jcc {
   justify-content: center;
 }
+
+.main_container {}

@@ -1,5 +1,11 @@
-import Home from "../components/home";
+import About from "../components/About/about";
+import Header from "../components/Header/header";
+import Home from "../components/Home/home";
 
 export default function HomePage() {
-    return <Home />
+    return <div className="main_container">
+        <Header />
+        <Home />
+        <About />
+    </div>
 }

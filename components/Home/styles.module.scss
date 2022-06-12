@@ -1,0 +1,17 @@
+@import "../../styles/globals.module.scss";
+
+
+.home_container {
+    margin-top: 45px;
+    height: 100px;
+
+    & div:nth-child(1) {
+        flex-grow: 3;
+        background-color: rgb(229, 255, 0);
+    }
+
+    & div:nth-child(2) {
+        flex-grow: 2;
+        background-color: rgb(255, 204, 0);
+    }
+}
