@@ -55,7 +55,7 @@ export default function Projects() {
                     </div>
                     <div className={`${styles.readmore}`}>Read more</div>
                 </div>
-            <span/>)
+            </span>)
         })
     }
 
