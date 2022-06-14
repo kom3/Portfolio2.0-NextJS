@@ -62,7 +62,7 @@ export default function Projects() {
     return <div className={`df fdircol ${styles.projects_container}`}>
         <div className={`mgr20 ${styles.projects_header}`}>Projects</div>
         <div className={`${styles.projects_outer_block}`}>
-            {projects.map((project_pair) => {
+            {projects.map((project_pair, index) => {
                 return <div className="df jcse aic fwrap mgr20" key={index + Math.random()}>
                     {generateProjectsBlocks(project_pair)}
                 </div>
