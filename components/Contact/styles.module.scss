@@ -1,0 +1,56 @@
+@import "../../styles/globals.module.scss";
+
+.contact_block {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  background-color: #00000052;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 500;
+  & > div {
+    height: 50%;
+  }
+  & > div {
+    height: 50%;
+  }
+  & > div > div {
+    margin: 15px;
+  }
+
+  & .icons_list {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+  }
+
+  & .icons_list > div {
+    cursor: pointer;
+  }
+
+  & .contact_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  & .contact_icons > div {
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+
+  & > div:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+
+.contact_header {
+  font-family: $fUbnt;
+  font-size: calc(28px + 0.15vw);
+  font-weight: $fw500;
+  color: $colFF8A;
+}

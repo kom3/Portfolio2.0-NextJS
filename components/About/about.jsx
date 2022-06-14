@@ -10,7 +10,7 @@ const background_img = require("../../public/images/aboutbackground.svg")
 export default function About(props) {
     return <div className={`df ${styles.about_container}`}>
         <div className={`${styles.left_container}`}>
-            <div className={`${styles.aboutme_header}`}>About me</div>
+            <div className={`mgr20 ${styles.aboutme_header}`}>About me</div>
             <div className={`${styles.aboutme_block}`}>
                 <div className={`${styles.aboutme_txt}`}>
                     <span className={`${styles.bigtext}`}>Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Veniam autem beatae omnis repellendus corporis et atque eum mollitia excepturi eveniet commodi rem velit expedita consectetur recusandae, sunt facere numquam inventore.

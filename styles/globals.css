@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&family=Saira+Stencil+One&family=Ubuntu:wght@700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&family=Saira+Stencil+One&family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Kanit:wght@600&display=swap");
 
 html,
 body {
@@ -29,9 +29,20 @@ body {
   height: 100%;
 }
 
-
 .df {
   display: flex;
+}
+
+.fdircol {
+  flex-direction: column;
+}
+
+.fwrap {
+  flex-wrap: wrap;
+}
+
+.frevwrap {
+  flex-wrap: wrap-reverse;
 }
 
 .aic {
@@ -42,4 +53,14 @@ body {
   justify-content: center;
 }
 
-.main_container {}
+.jcse {
+  justify-content: space-evenly;
+}
+
+.mgrtp20 {
+  margin-top: 20px;
+}
+
+.mgr20 {
+  margin: 20px;
+}
