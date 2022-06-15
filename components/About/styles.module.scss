@@ -74,7 +74,7 @@
   }
 
   .image_holder {
-    border-radius: 250px;
+    border-radius: 500px;
     overflow: hidden;
     text-align: center;
   }
@@ -99,6 +99,7 @@
   from {
     transform: rotate(280deg);
   }
+
   to {
     transform: rotate(0deg);
   }
