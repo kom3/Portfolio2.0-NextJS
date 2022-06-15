@@ -43,8 +43,8 @@ export default function Projects() {
 
     const generateProjectsBlocks = (project_pair) => {
         return project_pair.map((project, index) => {
-            return (<span key={index + Math.random()}>
-                <div className={`df fdircol ${styles.project_block}`}>
+            return (
+                <div className={`df fdircol ${styles.project_block}`} key={index + Math.random()}>
                     <div>
                         <img src={project.img} />
                         <div className={`${styles.project_title}`}>{project.name}</div>
@@ -55,7 +55,7 @@ export default function Projects() {
                     </div>
                     <div className={`${styles.readmore}`}>Read more</div>
                 </div>
-            </span>)
+            )
         })
     }
 
