@@ -4,7 +4,7 @@ export default function Projects() {
     const projects = [
         [{
             name: "Warrior Framework",
-            img: "https://www.idashboards.com/wp-content/uploads/2020/06/IT-Service-Desk.png",
+            img: "https://media.istockphoto.com/vectors/dashboard-infographic-template-with-flat-design-graphs-charts-ui-vector-id1281725534?k=20&m=1281725534&s=612x612&w=0&h=r4GIBP9GaiU3zScOUeQfv9bALPcsD3dzAZjD_MY3aUU=",
             desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque porro cupiditate sequi assumenda quas omnis fugit unde culpa ducimus laboriosam, ea expedita, dolorum saepe autem totam perspiciatis, natus repellendus neque!"
 
         },
@@ -22,7 +22,7 @@ export default function Projects() {
         },
         {
             name: "Smart Hire",
-            img: "https://www.idashboards.com/wp-content/uploads/2020/06/IT-Service-Desk.png",
+            img: "https://media.istockphoto.com/vectors/dashboard-infographic-template-with-flat-design-graphs-charts-ui-vector-id1281725534?k=20&m=1281725534&s=612x612&w=0&h=r4GIBP9GaiU3zScOUeQfv9bALPcsD3dzAZjD_MY3aUU=",
             desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque porro cupiditate sequi assumenda quas omnis fugit unde culpa ducimus laboriosam, ea expedita, dolorum saepe autem totam perspiciatis, natus repellendus neque!"
 
         }],

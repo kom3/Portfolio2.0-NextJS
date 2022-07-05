@@ -1,5 +1,6 @@
 import About from "../components/About/about";
 import Contact from "../components/Contact/contact";
+import Experience from "../components/Experience/experience";
 import Header from "../components/Header/header";
 import Home from "../components/Home/home";
 import Projects from "../components/Projects/projects";
@@ -10,6 +11,7 @@ export default function HomePage() {
         <Home />
         <About />
         <Projects />
+        <Experience />
         <Contact />
     </div>
 }
